@@ -1,5 +1,5 @@
 export default function Demos() {
     return (
-        <h1>demos</h1>
+        <h1>Demos</h1>
     )
 }

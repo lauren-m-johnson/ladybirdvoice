@@ -7,6 +7,7 @@ export default function NavBar() {
         <Link to='home'>Home</Link>
         <Link to='about'>About</Link>
         <Link to='demos'>Demos</Link>
+        <Link to='contact'>Contact</Link>
         </>
     )
 }
