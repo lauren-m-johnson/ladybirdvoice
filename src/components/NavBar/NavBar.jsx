@@ -6,6 +6,7 @@ export default function NavBar() {
         <h2>LadyBird Voice Studios</h2>
         <Link to='home'>Home</Link>
         <Link to='about'>About</Link>
+        <Link to='demos'>Demos</Link>
         </>
     )
 }
