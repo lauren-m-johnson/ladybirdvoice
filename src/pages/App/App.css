@@ -4,6 +4,10 @@ body {
     font-family: 'Abel', sans-serif;
 }
 
+h1 {
+    font-family: 'Poller One', serif;
+}
+
 .main-container {
     display: flex;
     justify-content: center;
