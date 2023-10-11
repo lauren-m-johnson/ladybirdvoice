@@ -8,3 +8,11 @@
     display: flex;
     gap: 1vmin;
 }
+
+#nav-links a {
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 600;
+    font-size: 3vmin;
+    text-decoration: none;
+    color: black;
+}
