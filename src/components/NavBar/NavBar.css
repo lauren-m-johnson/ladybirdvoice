@@ -1,18 +1,22 @@
 #nav-bar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#nav-bar img {
+    width: 35vmin;
 }
 
 #nav-links {
     display: flex;
-    gap: 1vmin;
+    gap: 3vmin;
 }
 
 #nav-links a {
     font-family: 'Poiret One', sans-serif;
-    font-weight: 600;
-    font-size: 3vmin;
+    font-weight: bold;
+    font-size: 4vmin;
     text-decoration: none;
     color: black;
 }
