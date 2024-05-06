@@ -1,0 +1,14 @@
+#about {
+    display: flex;
+    align-items: center;
+}
+
+#about img {
+    width: 30vmin;
+    height: 32vmin;
+    padding-right: 2vmin;
+}
+
+#about-bio {
+    padding: 5vmin;
+}
