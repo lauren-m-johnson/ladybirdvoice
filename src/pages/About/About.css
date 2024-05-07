@@ -6,10 +6,10 @@
 #about img {
     width: 30vmin;
     height: 32vmin;
-    padding-right: 2vmin;
     border-radius: 10px;
 }
 
 #about-bio {
-    padding: 5vmin;
+    padding: 0vmin 5vmin;
 }
+

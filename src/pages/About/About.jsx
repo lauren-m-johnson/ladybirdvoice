@@ -1,6 +1,13 @@
+import { useState } from 'react';
 import './About.css';
 
 export default function About() {
+    const [isStudioInfoVisible, setIsStudioInfoVisible] = useState(false);
+
+    const toggleStudioInfoVisibility = () => {
+        setIsStudioInfoVisible(!isStudioInfoVisible);
+    };
+
     return (
         <div className='main-container'>
             <h1>About</h1>
@@ -26,6 +33,25 @@ export default function About() {
                      poodle, Lucy.
                     </p>
                 </div>
+            </div>
+            <div id='studio-info'>
+                <button onClick={toggleStudioInfoVisibility}>
+                    {isStudioInfoVisible ? 'Hide Studio Info' : 'View Studio Info'}
+                </button>
+                {isStudioInfoVisible && (
+                    <>
+                        <h3>Workstation:</h3>
+                        <p>M1 Mac</p>
+                        <h3>Interface:</h3>
+                        <p>Focusrite Scarlett 2i2</p>
+                        <h3>Microphone:</h3>
+                        <p>Rhode NT1 Studio Condenser Microphone</p>
+                        <h3>Digital Audio Workspace:</h3>
+                        <p>Adobe Audition CC</p>
+                        <h3>Audio Editor:</h3>
+                        <p>Izotope RX10 Standard</p>
+                    </>
+                )}
             </div>
         </div>
     )

@@ -1,18 +1,36 @@
 body {
     height: 100vh;
-    background-color: #b8d6df;
+    background-color: #cddadf;
     font-family: 'Abel', sans-serif;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Poller One', serif;
+}
+
+h3 {
+    font-family: 'Poiret One', sans-serif;
+    font-weight: bolder;
+}
+
+button {
+    font-family: 'Poller One', serif;
+    background-color: #89b3c7;
+    border: 1px solid #171718;
+    border-radius: 10px;
+    padding: 1vmin;
+    font-size: 2vmin;
+}
+
+button:hover {
+    background-color: #616e74;
 }
 
 .main-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-color: rgb(231, 234, 236);
     border-radius: 10px;
     margin: 5vmin;
