@@ -1,7 +1,7 @@
 #home_page {
     display: flex;
     align-items: center;
-    padding-bottom: 4vmin;
+    padding: 5vmin;
 }
 
 #studio_img {

@@ -7,9 +7,9 @@ export default function Footer() {
         <a href="https://www.instagram.com/ladybirdvoicestudios/?utm_source=ig_embed&amp;utm_campaign=loading" target="_blank" rel='noreferrer'>
           <img src='public\images\instagram.png' alt="Instagram" />
         </a>
-        <p>ladybirdvoicestudios@gmail.com</p>
+        <a href='mailto:ladybirdvoicestudios@gmail.com'>ladybirdvoicestudios@gmail.com</a>
         <Link to="/contact">
-        <button>Free Quote</button>
+        <button>Request Quote</button>
         </Link>
       </div>
     );

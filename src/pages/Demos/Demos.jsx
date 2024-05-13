@@ -9,6 +9,9 @@ export default function Demos() {
             </div>
             <div id='char_samples'>
                 <h2>Character Samples</h2>
+                <a href='https://www.audible.com/pd/Like-Sticky-Notes-from-God-Audiobook/B0D2J9X2KQ?source_code=AUDFPWS0223189MWU-BK-ACX0-395929&ref=acx_bty_BK_ACX0_395929_pd_us' target="_blank" rel='noreferrer'>
+                    <p>Like Sticky Notes from God - S. Trell Beaty</p>
+                </a>
                 <h3>Paddy & Pat:</h3>
                 <audio controls>
                 <source src="public\audio\paddy.mp3" type="audio/mpeg" />
