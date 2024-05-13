@@ -28,7 +28,7 @@ export default function Contact() {
     };
   
     return (
-        <div className='main-container'>
+        <div className='main-container' id='contact'>
             <h1>Contact</h1>
             <div id='contact-container'>
             <div id='email-cont'>

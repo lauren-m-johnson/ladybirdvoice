@@ -12,6 +12,12 @@ textarea[name="message"] {
     height: 20vmin; 
   }
 
+#contact {
+    display: flex;
+    align-items: center;
+    padding: 3vmin;
+}
+
 #contact-form {
     background-color: rgb(196, 201, 206);
     border-radius: 10px;
