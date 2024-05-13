@@ -9,7 +9,7 @@ export default function About() {
     };
 
     return (
-        <div className='main-container'>
+        <div className='main-container' id='about-maria'>
             <h1>About</h1>
             <div id='about'>
                 <img src='/images/me with mic.jpg' alt='Photo of Maria Recording'></img>
@@ -53,6 +53,7 @@ export default function About() {
                     </>
                 )}
             </div>
+            <img src='public\images\logo with niches.jpg' id='niches'></img>
         </div>
     )
 }

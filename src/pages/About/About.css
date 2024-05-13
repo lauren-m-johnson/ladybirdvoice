@@ -16,3 +16,12 @@
 #studio-info {
     padding: 5vmin 0;
 }
+
+#about-maria {
+    display: flex;
+    align-items: center;
+}
+#niches {
+    border-radius: 10px;
+    height: 50vmin;
+}
