@@ -4,3 +4,7 @@
     align-items: center;
     padding-bottom: 5vmin;
 }
+
+#footer img {
+    height: 5vmin;
+}
