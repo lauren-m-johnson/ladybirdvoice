@@ -34,7 +34,7 @@ export default function Contact() {
             <div id='email-cont'>
                 <h2>General Inquires</h2>
                 <p>Email Address</p>
-                <a href='mailto:ladybirdvoicestudios@gmail.com'>ladybirdvoicestudios@gmail.com</a>
+                <a href='mailto:maria@ladybirdvoicestudios.com'>maria@ladybirdvoicestudios.com</a>
                 <h2>Social Media</h2>
                 <a href="https://www.instagram.com/ladybirdvoicestudios/?utm_source=ig_embed&amp;utm_campaign=loading" target="_blank" rel='noreferrer'>
                     <img src='public\images\instagram.png' alt="Instagram" />
