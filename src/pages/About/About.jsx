@@ -12,7 +12,7 @@ export default function About() {
         <div className='main-container' id='about-maria'>
             <h1>About</h1>
             <div id='about'>
-                <img src='/images/me with mic.jpg' alt='Photo of Maria Recording'></img>
+                <img src='/images/Maria_Recording.jpeg' alt='Photo of Maria Recording'></img>
                 <div id="about-bio">
                     <p>
                     Maria L. Johnson is an exceptional American Female Voice Actor with a talent for delivering 
